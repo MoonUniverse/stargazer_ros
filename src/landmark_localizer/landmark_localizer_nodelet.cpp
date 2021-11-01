@@ -14,9 +14,6 @@ class LandmarkLocalizerInterfaceNodelet : public nodelet::Nodelet {
 void LandmarkLocalizerInterfaceNodelet::onInit() {
     m_ = std::make_unique<LandmarkLocalizerInterface>(getNodeHandle(), getPrivateNodeHandle());
 }
-} // namespace image_undistorter
+} // namespace stargazer_ros_tool
 
-PLUGINLIB_DECLARE_CLASS(stargazer_ros_tool,
-                        LandmarkLocalizerInterfaceNodelet,
-                        stargazer_ros_tool::LandmarkLocalizerInterfaceNodelet,
-                        nodelet::Nodelet);
+PLUGINLIB_EXPORT_CLASS(stargazer_ros_tool::LandmarkLocalizerInterfaceNodelet, nodelet::Nodelet);
