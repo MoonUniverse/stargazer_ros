@@ -18,13 +18,13 @@
     <param name="landmark_topic" value="$(arg landmark_topic)"/>
     <param name="undistorted_image_topic" value="$(arg undistorted_image_topic)"/>
 
-    <param name="threshold" value="140"/>
+    <param name="threshold" value="120"/>
     <param name="tight_filter_size" value="3"/>
     <param name="wide_filter_size" value="31"/>
     <param name="maxRadiusForPixelCluster" value="3"/>
     <param name="minPixelForCluster" value="1"/>
     <param name="maxPixelForCluster" value="1000"/>
-    <param name="maxRadiusForCluster" value="40"/>
+    <param name="maxRadiusForCluster" value="80"/>
     <param name="minPointsPerLandmark" value="5"/>
     <param name="maxPointsPerLandmark" value="9"/>
     <param name="debug_mode" value="$(arg debug_mode)"/>

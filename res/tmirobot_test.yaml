@@ -5,7 +5,6 @@ CameraIntrinsics:
  v0: 353.64612
 
 Landmarks:
- - { HexID: 0x0640, x:  0,    y:  0,    z:  2.78, rx:  0, ry: 0, rz: 0 }
- - { HexID: 0x6100, x:  -1.5, y:  0.1,  z:  2.78, rx:  0, ry: 0, rz: 0 }
- - { HexID: 0x0620, x:  2.5,  y:  -0.2, z:  2.78, rx:  0, ry: 0, rz: 0 }
- - { HexID: 0x2084, x:  -3.5, y:  -0.2, z:  2.78, rx:  0, ry: 0, rz: 0 }
+ - { HexID: 0x0884, x:  0.00, y:  0.00, z:  1.6, rx:  0, ry: -0, rz: 0 }
+ - { HexID: 0x00A4, x:  0.83, y:  0.00, z:  1.6, rx:  0, ry: -0, rz: 0 }
+ - { HexID: 0x0444, x:  0.83, y: -0.42, z:  1.6, rx:  0, ry: -0, rz: 0 }
